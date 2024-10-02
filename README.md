@@ -31,13 +31,11 @@ CREATE TABLE Payments (
 
 ```
 ;
-## CUSTOMER TABLES
+## CATEGORIES TABLES
 ```sql
-CREATE TABLE Customers (
-    CustomerID INT PRIMARY KEY,
-    CustomerName VARCHAR(255),
-    Email VARCHAR(255),
-    Address VARCHAR(255)
+CREATE TABLE Categories (
+    CategoryID INT PRIMARY KEY,
+    CategoryName VARCHAR(255)
 )
 
 ```
