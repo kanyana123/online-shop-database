@@ -1,4 +1,4 @@
-# online-shop-database
+# shop-database
 ## CUSTOMERS TABLES
 ```sql
 CREATE TABLE Customers (
@@ -150,7 +150,8 @@ WHERE PaymentID =2
 SELECT * FROM CATEGORIES WHERE CATEGORYID = 2
 ```
 ;
-JOIN INTO 
+
+## JOIN customer tables and order table 
 ```sql
 SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 FROM Orders
