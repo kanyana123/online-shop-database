@@ -10,7 +10,7 @@ CREATE TABLE Customers (
 
 ```
 ;
-## orders TABLES
+## ORDERS TABLES
 ```sql
 CREATE TABLE Orders (
     OrderID INT PRIMARY KEY,
