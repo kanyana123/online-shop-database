@@ -117,12 +117,19 @@ VALUES (3,3,'cash',555.99)
 ```
 ;
 
-## Insert Attendance
-
+## Insert INTO CATEGORIES
+```
 sql
-INSERT INTO Attendance (Employee_ID, Attendance_Date, Status) VALUES (1, SYSDATE, 'Present');  -- Attendance record for employee Alice
-
-
+INSERT INTO Categories (CategoryID, CategoryName)
+VALUES (1, 'Electronics');
+COMMIT;
+INSERT INTO Categories (CategoryID, CategoryName)
+VALUES (2, 'Books');
+COMMIT;
+INSERT INTO Categories (CategoryID, CategoryName)
+VALUES (3, 'Home Appliances')
+```
+;
 ## Conceptual, Logical and Physical Data Model
 
 ![alt text](image.png)
