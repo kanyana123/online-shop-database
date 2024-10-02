@@ -150,6 +150,13 @@ WHERE PaymentID =2
 SELECT * FROM CATEGORIES WHERE CATEGORYID = 2
 ```
 ;
+JOIN INTO 
+```sql
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+```
+;
 ## Conceptual, Logical and Physical Data Model
 
 ![alt text](image.png)
