@@ -20,6 +20,7 @@ CREATE TABLE Orders (
 
 ```
 ;
+
 ## PAYMENTS TABLES
 ```sql
 CREATE TABLE Payments (
@@ -80,7 +81,9 @@ VALUES (2,TO_DATE('29-09-2024', 'DD-MM-YYYY'),2);
 COMMIT;
 INSERT INTO Orders (OrderID,orderdate,customerID)
 VALUES (3,TO_DATE('30-09-2024', 'DD-MM-YYYY'),3)
-```;
+```
+;
+
 
 ## Insert INTO PRODUCTS
 
@@ -93,7 +96,9 @@ VALUES (2, 'DICTIONARY', 98.99, 2);
 COMMIT;
 INSERT INTO Products (ProductID, ProductName, Price, CategoryID)
 VALUES (3, 'FRIDGE', 555.99, 3)
-```;
+```
+;
+
 
 
 
@@ -109,7 +114,8 @@ VALUES (2,2,'creditcard',98.99);
 commit;
 INSERT INTO Payments (PaymentID, OrderID, Paymentmethod, Amount)
 VALUES (3,3,'cash',555.99)
-```;
+```
+;
 
 ## Insert Attendance
 
