@@ -118,8 +118,7 @@ VALUES (3,3,'cash',555.99)
 ;
 
 ## Insert INTO CATEGORIES
-```
-sql
+```sql
 INSERT INTO Categories (CategoryID, CategoryName)
 VALUES (1, 'Electronics');
 COMMIT;
