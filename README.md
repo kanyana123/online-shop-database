@@ -145,6 +145,11 @@ WHERE PaymentID =2
 ```
 ;
 
+## SELECT INTO CATEGORIES
+```sql
+SELECT * FROM CATEGORIES WHERE CATEGORYID = 2
+```
+;
 ## Conceptual, Logical and Physical Data Model
 
 ![alt text](image.png)
