@@ -10,6 +10,49 @@ CREATE TABLE Customers (
 
 ```
 ;
+## orders TABLES
+```sql
+CREATE TABLE Orders (
+    OrderID INT PRIMARY KEY,
+    OrderDate DATE,
+    CustomerID INT,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID))
+
+```
+;
+## CUSTOMER TABLES
+```sql
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(255),
+    Email VARCHAR(255),
+    Address VARCHAR(255)
+)
+
+```
+;
+## CUSTOMER TABLES
+```sql
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(255),
+    Email VARCHAR(255),
+    Address VARCHAR(255)
+)
+
+```
+;
+## CUSTOMER TABLES
+```sql
+CREATE TABLE Customers (
+    CustomerID INT PRIMARY KEY,
+    CustomerName VARCHAR(255),
+    Email VARCHAR(255),
+    Address VARCHAR(255)
+)
+
+```
+;
 # Inserting Records
 
 To insert records into the tables, you can use the following examples:
