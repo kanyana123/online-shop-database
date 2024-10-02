@@ -65,11 +65,10 @@ commit;
 INSERT INTO Customers (CustomerID, CustomerName, Email, Address)
 VALUES (3, 'INGABIRE', 'INGABIRE@example.com', '125 KN')
 ```;
-## nsert Departments
+## Insert INTO ORDERS
 
-sql 
-INSERT INTO Departments (Department_Name, Location, Country_ID) VALUES ('Human Resources', 'Kigali', 1);  -- HR department in Rwanda
-INSERT INTO Departments (Department_Name, Location, Country_ID) VALUES ('Finance', 'Kigali', 1);  -- Finance department in Rwanda
+```sql 
+
 
 ## Insert Roles
 
