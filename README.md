@@ -151,17 +151,22 @@ SELECT * FROM CATEGORIES WHERE CATEGORYID = 2
 ```
 ;
 
-## JOIN customer tables and order table 
+## JOIN customers table and orders table 
 ```sql
 SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
 FROM Orders
 INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
 ```
 ;
-## Conceptual, Logical and Physical Data Model
+## subqueries of ustomers table and payments table
+```sql
+SELECT CustomerName
+FROM Customers
+WHERE CustomerID IN (
+    SELECT DISTINCT Orders.CustomerID
+    FROM Payments
+    INNER JOIN Orders ON Payments.OrderID = Orders.OrderID
+    WHERE Amount> 100)
+```
+;
 
-![alt text](image.png)
-
-## Conclusion
-
-This Employee Management Database schema is provided for educational and development purposes. You are free to use, modify, and distribute this code as you see fit, provided that proper attribution is given.
