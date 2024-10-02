@@ -137,6 +137,8 @@ SET Price = 299.99
 WHERE ProductID = 2
 ```
 ;
+## UPDATE INTO PAYMENT
+```sql
 
 ## Conceptual, Logical and Physical Data Model
 
