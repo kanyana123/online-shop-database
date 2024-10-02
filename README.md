@@ -79,11 +79,19 @@ INSERT INTO Orders (OrderID,orderdate,customerID)
 VALUES (3,TO_DATE('30-09-2024', 'DD-MM-YYYY'),3)
 ```;
 
-## Insert Roles
+## Insert INTO PRODUCTS
 
-sql
-INSERT INTO Roles (Role_Name) VALUES ('Manager');  -- Inserting Manager role
-INSERT INTO Roles (Role_Name) VALUES ('Employee');  -- Inserting Employee role
+```sql
+INSERT INTO Products (ProductID, ProductName, Price, CategoryID)
+VALUES (1, 'Laptop', 999.99, 1);
+COMMIT;
+INSERT INTO Products (ProductID, ProductName, Price, CategoryID)
+VALUES (2, 'DICTIONARY', 98.99, 2);
+COMMIT;
+INSERT INTO Products (ProductID, ProductName, Price, CategoryID)
+VALUES (3, 'FRIDGE', 555.99, 3)
+```;
+
 
 
 
