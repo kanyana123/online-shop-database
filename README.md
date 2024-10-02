@@ -139,6 +139,11 @@ WHERE ProductID = 2
 ;
 ## UPDATE INTO PAYMENT
 ```sql
+UPDATE Payments
+SET amount = 99.99
+WHERE PaymentID =2
+```
+;
 
 ## Conceptual, Logical and Physical Data Model
 
