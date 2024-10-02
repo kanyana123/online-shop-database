@@ -95,12 +95,18 @@ VALUES (3, 'FRIDGE', 555.99, 3)
 
 
 
-## Insert Employees
+## Insert INTO PAYMENTS
 
-sql
-INSERT INTO Employees (First_Name, Last_Name, Email, Phone_Number, Address, Hire_Date, Department_ID, Role_ID, Salary)
-VALUES ('Alice', 'Kanayana', 'alice@example.com', '+250788123456', 'Kigali, Rwanda', SYSDATE, 1, 1, 50000);  -- Inserting employee Alice
-
+```sql
+INSERT INTO Payments (PaymentID, OrderID, Paymentmethod, Amount)
+VALUES (1,1,'cash',999.99);
+commit;
+INSERT INTO Payments (PaymentID, OrderID, Paymentmethod, Amount)
+VALUES (2,2,'creditcard',98.99);
+commit;
+INSERT INTO Payments (PaymentID, OrderID, Paymentmethod, Amount)
+VALUES (3,3,'cash',555.99)
+```;
 
 ## Insert Attendance
 
