@@ -40,13 +40,14 @@ CREATE TABLE Categories (
 
 ```
 ;
-## CUSTOMER TABLES
+## PRODUCTS TABLES
 ```sql
-CREATE TABLE Customers (
-    CustomerID INT PRIMARY KEY,
-    CustomerName VARCHAR(255),
-    Email VARCHAR(255),
-    Address VARCHAR(255)
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(255),
+    Price DECIMAL(10, 2),
+    CategoryID INT,
+    FOREIGN KEY (CategoryID) REFERENCES Categories(CategoryID)
 )
 
 ```
