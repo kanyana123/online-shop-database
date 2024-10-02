@@ -129,6 +129,15 @@ INSERT INTO Categories (CategoryID, CategoryName)
 VALUES (3, 'Home Appliances')
 ```
 ;
+
+## UPDATE INTO PAYMENT
+```sql
+UPDATE Products
+SET Price = 299.99
+WHERE ProductID = 2
+```
+;
+
 ## Conceptual, Logical and Physical Data Model
 
 ![alt text](image.png)
