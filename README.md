@@ -130,7 +130,7 @@ VALUES (3, 'Home Appliances')
 ```
 ;
 
-## UPDATE INTO PAYMENT
+## UPDATE INTO PRODUCTS
 ```sql
 UPDATE Products
 SET Price = 299.99
