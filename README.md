@@ -20,14 +20,14 @@ CREATE TABLE Orders (
 
 ```
 ;
-## CUSTOMER TABLES
+## PAYMENTS TABLES
 ```sql
-CREATE TABLE Customers (
-    CustomerID INT PRIMARY KEY,
-    CustomerName VARCHAR(255),
-    Email VARCHAR(255),
-    Address VARCHAR(255)
-)
+CREATE TABLE Payments (
+    PaymentID INT PRIMARY KEY,
+    OrderID INT,
+    PaymentMethod VARCHAR(50),
+    Amount DECIMAL(10, 2),
+    FOREIGN KEY (OrderID) REFERENCES Orders(OrderID))
 
 ```
 ;
