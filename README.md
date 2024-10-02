@@ -1,5 +1,5 @@
 # online-shop-database
-## CUSTOMER TABLES
+## CUSTOMERS TABLES
 ```sql
 CREATE TABLE Customers (
     CustomerID INT PRIMARY KEY,
