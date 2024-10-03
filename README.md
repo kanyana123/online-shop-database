@@ -177,4 +177,4 @@ paymentID=2
 ;
 ## Conceptual Data Model
 
-![alt text](image.png)
+![conceptual diagram](image.png)
