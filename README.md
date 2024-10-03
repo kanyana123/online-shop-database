@@ -175,5 +175,6 @@ delete from payments where
 paymentID=2
 ```
 ;
-## CONCEPTUAL DIAGRAM
-![conceptual diagram]RELATIONSHIPS.PNG("conceptual diagram")
+## Conceptual Data Model
+
+![alt text](image.png)
