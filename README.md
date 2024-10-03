@@ -176,8 +176,4 @@ paymentID=2
 ```
 ;
 ## Conceptual Data Model
-
-![conceptual diagram](image.png)
-
-# npn install
 ![image](https://github.com/user-attachments/assets/847e2d44-1387-4623-be96-1a817de43d9e)
