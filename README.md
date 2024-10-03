@@ -169,4 +169,10 @@ WHERE CustomerID IN (
     WHERE Amount> 100)
 ```
 ;
+## Delete form PAYMENTS
+```sql
+delete from payments where
+paymentID=2
+```
+;
 
